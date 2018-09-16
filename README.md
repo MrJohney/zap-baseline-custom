@@ -1,9 +1,10 @@
-# ZAP Baseline Scan Script with authentication and active scanning
+# ZAP Baseline Scan Script customized with authentication
 
-A customized version of the Owasp ZAP Baseline Scan Script (https://github.com/zaproxy/zaproxy/wiki/ZAP-Baseline-Scan) with support for authentication and active scanning.
+A custom version of the OWASP ZAP baseline scan:    
+[ZAP-Baseline-Scan](https://github.com/zaproxy/zaproxy/wiki/ZAP-Baseline-Scan)   
+with support for authentication and active scanning.
 
-The script performs the following steps:
-
+The script performs the following actions:    
 1. Perform authentication (if required)
 2. Spider the webapplication
 3. Perform a passive scan on the spidered URL's
