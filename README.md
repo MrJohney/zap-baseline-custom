@@ -43,11 +43,7 @@ Manual authentication:
 ```
 
 # Dockerfile
-
 The Dockerfile is based on the owasp/zap2docker-weekly image (https://hub.docker.com/r/owasp/zap2docker-weekly/). The Dockerfile adds the customized scan script and installs some additional applications to support authentication in the Baseline Scan Script (like Selenium).
 
-The Dockerfile is published at: https://hub.docker.com/r/ictu/zap2docker-weekly/
-
-# example-run.sh
-
+# run.sh
 This is an example shellscript to run the Zap Baseline Scan script in a Docker container on an application with authentication and active scanning.
