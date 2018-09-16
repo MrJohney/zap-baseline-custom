@@ -42,8 +42,16 @@ Manual authentication:
     --auth_exclude             comma separated list of URLs to exclude, supply all URLs causing logout (manual login)
 ```
 
+# Makefile    
+Build and take a custom zap2docker-weekly image    
+Include a custom zap-baseline.py "overlay" script to allow "authenticated/credentialed" scans    
+
 # Dockerfile
 The Dockerfile is based on the owasp/zap2docker-weekly image (https://hub.docker.com/r/owasp/zap2docker-weekly/). The Dockerfile adds the customized scan script and installs some additional applications to support authentication in the Baseline Scan Script (like Selenium).
 
 # run.sh
 This is an example shellscript to run the Zap Baseline Scan script in a Docker container on an application with authentication and active scanning.
+
+```
+2018 gjyoung1974@gmail.com
+```
